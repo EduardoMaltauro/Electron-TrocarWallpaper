@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Consolas", monospace;
+    font-size: 16pt;
+}
+
+
+body {
+    background-image: url("./background.gif");
+    background-position: center;
+    background-position-y: 0;
+    background-size: cover;
+    overflow: hidden;
+}
+
+div {
+    margin: 64px auto;
+    text-align: center;
+}
+
+input, button {
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  color: #222;
+  height: 32px;
+  padding: 0 8px;
+  text-align: center;
+  margin-top: 5px;
+  transition: 1s;
+}
